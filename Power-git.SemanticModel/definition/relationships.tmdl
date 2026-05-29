@@ -1,0 +1,5 @@
+relationship c8008577-f86a-4271-bdc9-b2c052677e24
+	joinOnDateBehavior: datePartOnly
+	fromColumn: inventarios.'Fecha Contab'
+	toColumn: LocalDateTable_d2615e3f-74fe-4af0-8a3f-06d3ecf5ad75.Date
+

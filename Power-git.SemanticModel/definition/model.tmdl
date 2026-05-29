@@ -10,5 +10,12 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
+annotation PBI_QueryOrder = ["inventarios","pbi movimientos_almacen"]
+
+ref table inventarios
+ref table DateTableTemplate_78af4375-ad5d-4f5f-af08-df9abaeff6c6
+ref table LocalDateTable_d2615e3f-74fe-4af0-8a3f-06d3ecf5ad75
+ref table 'pbi movimientos_almacen'
+
 ref cultureInfo es-ES
 
